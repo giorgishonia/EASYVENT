@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASYVENT</title>
+</head>
+<body>
+    <div class="ticket-container">
+        <div class="right-side">
+            <div class="ticket-date">19 მარტი</div>
+            <img src="./abf013fc-a486-4b0a-bd9b-d5cf5677fd32.jpeg" class="ticket-image">
+        </div>
+        <div class="left-side">
+            <div class="ticket-name">მე, ბებია, ილიკო და ილარიონი</div>
+            <div class="ticket-location">Youth Theatre</div>                <div id="percentage">0%</div>
+            <div class="progress-container">
+                <div id="ticket-progress-bar"></div>
+                <div id="vote-display">
+            <div style="display: none;" id="current-votes"></div>
+                </div>
+            </div>
+            <button id="voteButton" class="vote">ხმის მიცემა</button>
+            <div id="alertDiv" class="alert-div">
+                <div class="vote-limit-alert" id="voteLimitAlert">ხმების რაოდენობამ მაქსიმუმს მიაღწია.</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
