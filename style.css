@@ -4,12 +4,12 @@ html {
 
 @font-face {
     font-family: alk-life;
-    src: url(./alk_life.otf);
+    src: url(./fonts/alk_life.otf);
 }
 
 @font-face {
     font-family: le-studio;
-    src: url(./bpg_le_studio_02.ttf);
+    src: url(./fonts/bpg_le_studio_02.ttf);
 }
 
 body{ 
