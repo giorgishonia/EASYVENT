@@ -147,7 +147,7 @@ body{
   color: transparent;
   color: white;
   font-size: 50px;
-  margin-top: 50px; /* Adjust margin-top as needed */
+  margin-top: 150px; /* Adjust margin-top as needed */
     font-family: le-studio;
  }
 
@@ -258,7 +258,7 @@ header  a {
   color: #fff; /* White color for links */
   text-decoration: none;
   transition: 200ms;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 header nav a:hover {
@@ -312,7 +312,7 @@ nav{
   height: 60px;
   user-select: none;
   cursor: pointer;
-  margin-top: 180px;
+  margin-top: 80px;
 }
 
 .scroll-arrow:hover{
@@ -344,7 +344,7 @@ nav{
   opacity: 1;       
 }
 
-section-2{
+#section-2{
   display: flex;
   width: 100vw;
   height: 92vh;
@@ -356,4 +356,15 @@ section-2{
 
 .left-section{
   width: 40%;
+}
+
+#section-3{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+form{
+  color: white;
 }
