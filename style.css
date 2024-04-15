@@ -96,11 +96,7 @@ header  a {
   font-size: 17px;
 }
 
-header nav a:hover {
-  color: #ccc; /* Light gray on hover */
-  transition: 200ms;
 
-}
 
 .sticky { /* Add styling for scrolled state */
   background: rgb(0,0,0);
@@ -119,8 +115,8 @@ header nav a:hover {
 }
 
 .sticky .logo{
-  height: 37px;
-  width: 37px;
+  height: 40px;
+  width: 40px;
   transition: 200ms;
 }
 
@@ -188,10 +184,10 @@ header nav a:hover {
   padding: 20px;
 }
 
-nav{
+nav {
   display: flex;
-  gap: 50px;
-  justify-content: end;
+  gap: 70px;
+  justify-content: center;
   height: 100px;
   align-items: center;
   margin-right: 40px;
@@ -240,6 +236,9 @@ button{
   cursor: pointer;
   transition: 0.2s;
   margin-bottom: 5px;
+  position: absolute;
+  right: 30px;
+  top: 25px;
 }
 
 .app-button:hover{
@@ -279,3 +278,19 @@ button{
   text-align: center;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+nav a.active {
+  color: rgb(255, 255, 255);
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
